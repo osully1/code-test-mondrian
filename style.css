@@ -1,0 +1,246 @@
+.container {
+    position: relative;
+    width: 50rem;
+    height: 50rem;
+}
+
+.rectangle {
+    position: absolute;
+    border: 2px solid #0A0A0A;
+}
+
+.red {
+    background-color: #C63818;
+}
+
+.yellow {
+    background-color: #E8C219;
+}
+
+.blue {
+    background-color: #1e3547;
+}
+
+.gray {
+    background-color: #B4B3B9;
+}
+
+.black {
+    background-color: #0A0A0A;
+}
+
+.rectangle:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 7.1rem;
+    height: 0.913rem;
+}
+
+.rectangle:nth-child(2) {
+    top: 0;
+    left: 7.1rem;
+    width: 29.209rem;
+    height: 0.913rem;
+}
+
+.rectangle:nth-child(3) {
+    top: 0;
+    left: 36.309rem;
+    width: 13.692rem;
+    height: 6.592rem;
+}
+
+.rectangle:nth-child(4) {
+    top: 0.913rem;
+    left: 0;
+    width: 7.1rem;
+    height: 23.225rem;
+}
+
+.rectangle:nth-child(5) {
+    top: 0.913rem;
+    left: 7.1rem;
+    width: 5.68rem;
+    height: 5.68rem;
+}
+
+.rectangle:nth-child(6) {
+    top: 0.913rem;
+    left: 12.78rem;
+    width: 23.529rem;
+    height: 5.68rem;
+}
+
+.rectangle:nth-child(7) {
+    top: 6.593rem;
+    left: 7.1rem;
+    width: 19.371rem;
+    height: 7.201rem;
+}
+
+.rectangle:nth-child(8) {
+    top: 6.593rem;
+    left: 26.471rem;
+    width: 9.838rem;
+    height: 7.201rem;
+}
+
+.rectangle:nth-child(9) {
+    top: 6.593rem;
+    left: 36.309rem;
+    width: 10.548rem;
+    height: 7.201rem;
+}
+
+.rectangle:nth-child(10) {
+    top: 6.593rem;
+    left: 46.857rem;
+    width: 3.144rem;
+    height: 7.201rem;
+}
+
+.rectangle:nth-child(11) {
+    top: 13.794rem;
+    left: 7.1rem;
+    width: 5.68rem;
+    height: 10.345rem;
+}
+
+.rectangle:nth-child(12) {
+    top: 13.794rem;
+    left: 12.78rem;
+    width: 13.692rem;
+    height: 10.345rem;
+}
+
+.rectangle:nth-child(13) {
+    top: 13.794rem;
+    left: 26.472rem;
+    width: 9.838rem;
+    height: 17.241rem;
+}
+
+.rectangle:nth-child(14) {
+    top: 13.794rem;
+    left: 36.309rem;
+    width: 10.548rem;
+    height: 17.241rem;
+}
+
+.rectangle:nth-child(15) {
+    top: 13.794rem;
+    left: 46.857rem;
+    width: 3.144rem;
+    height: 24.442rem;
+}
+
+.rectangle:nth-child(16) {
+    top: 24.138rem;
+    left: 0;
+    width: 7.1rem;
+    height: 22.718rem;
+}
+
+.rectangle:nth-child(17) {
+    top: 24.138rem;
+    left: 7.1rem;
+    width: 5.68rem;
+    height: 22.718rem;
+}
+
+.rectangle:nth-child(18) {
+    top: 24.138rem;
+    left: 12.78rem;
+    width: 13.692rem;
+    height: 6.897rem;
+}
+
+.rectangle:nth-child(19) {
+    top: 31.035rem;
+    left: 12.78rem;
+    width: 13.692rem;
+    height: 7.2001rem;
+}
+
+.rectangle:nth-child(20) {
+    top: 31.035rem;
+    left: 26.472rem;
+    width: 9.838rem;
+    height: 7.2001rem;
+}
+
+.rectangle:nth-child(21) {
+    top: 31.035rem;
+    left: 36.309rem;
+    width: 10.548rem;
+    height: 7.2001rem;
+}
+
+.rectangle:nth-child(22) {
+    top: 38.235rem;
+    left: 12.78rem;
+    width: 13.692rem;
+    height: 8.621rem;
+}
+
+.rectangle:nth-child(23) {
+    top: 38.235rem;
+    left: 26.472rem;
+    width: 9.838rem;
+    height: 8.621rem;
+}
+
+.rectangle:nth-child(24) {
+    top: 38.235rem;
+    left: 36.309rem;
+    width: 10.548rem;
+    height: 8.621rem;
+}
+
+.rectangle:nth-child(25) {
+    top: 46.856rem;
+    left: 0;
+    width: 12.78rem;
+    height: 3.144rem;
+}
+
+.rectangle:nth-child(26) {
+    top: 46.856rem;
+    left: 12.78rem;
+    width: 23.53rem;
+    height: 3.144rem;
+}
+
+.rectangle:nth-child(27) {
+    top: 46.856rem;
+    left: 36.309rem;
+    width: 10.548rem;
+    height: 3.144rem;
+}
+
+.rectangle:nth-child(28) {
+    top: 38.235rem;
+    left: 46.857rem;
+    width: 3.144rem;
+    height: 11.765rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rectangle {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+    }
+
+    .black { order: 1; }
+    .blue { order: 2; }
+    .yellow { order: 3; }
+    .gray { order: 4; }
+    .red { order: 5; }
+}
